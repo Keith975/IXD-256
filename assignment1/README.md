@@ -1,4 +1,4 @@
-## Assignment1  
+b## Assignment1  
 Assignment 1 description  
 [assignment1](Project1.py) 
 Code snipped for changing states in the program: 
@@ -85,4 +85,4 @@ while True:
     time.sleep_ms(10)
 ```
 Image link example:  
-![assignment1](image_35.png)
+![ ](./image_35.png)

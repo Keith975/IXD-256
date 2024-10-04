@@ -85,4 +85,4 @@ while True:
     time.sleep_ms(10)
 ```
 Image link example:  
-![led_circuit](image 35.png)
+![assignment1](image_35.png)

@@ -1,6 +1,6 @@
 ## Assignment1  
 Assignment 1 description  
-[Assignment1](project1.py) 
+[assignment1](Project1.py) 
 Code snipped for changing states in the program: 
 
 ```Python

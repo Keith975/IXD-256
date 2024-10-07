@@ -1,27 +1,35 @@
-b## Assignment1  
-Assignment 1 description  
-[assignment1](Project1.py) 
-Code snipped for changing states in the program: 
+## Assignment1  
+Link to the code: [assignment1](Project1.py)     
+Description  
+A book on a shelf with conductive material on the back. When the book is pushed back, the conductive part will make contact with a conductive backplate on the shelf, activating a hidden mechanism, like turning on a light.
+
+Inspiration  
+In many movies, bookshelves are filled with hidden secrets, like escape room puzzles or concealed toggles. Inspired by this, I want to create an installation that recreates this mysterious experience, turning an ordinary bookshelf into an interactive puzzle full of surprises and hidden mechanisms.  
+
+![inspiration images](inspiration_images.png)
+
+Sketches：  
+![sketches](Sketch.png)
+
+Material List:  
+Basic Material:  
+MDF, Books  
+Basic Hardware:  
+ESP 32, Bread board, conductive tape, wires  
+Input：  
+Books(with conductive tape)  
+OutPut:  
+LED lights 
+
+Flowchart of high level logic:   
+![digram](Flowchart.png)
+
+
+
+
+Code snipped for definitions in the program: 
 
 ```Python
-import os, sys, io
-import M5
-from M5 import *
-from hardware import *
-import time
-
-M5.begin()
-
-pin6 = Pin(6, mode=Pin.OUT)  
-pin8 = Pin(8, mode=Pin.OUT)  
-pin5 = Pin(5, mode=Pin.IN, pull=Pin.PULL_UP)  
-pin7 = Pin(7, mode=Pin.IN, pull=Pin.PULL_UP)  
-
-rgb2 = RGB(io=2, n=15, type="SK6812")
-rgb2.fill((0, 0, 0))
-
-program_state = 'inactive'
-
 def get_rgb_color(r, g, b):
     rgb_color = (r << 16) | (g << 8) | b
     return rgb_color
@@ -49,7 +57,10 @@ def rgb_cycle_colors():
                 return
             rgb2.fill_color(get_rgb_color(255 - i, 255 - i, i))
             time.sleep_ms(10)
+```
 
+Main code in the program: 
+```Python
 while True:
     M5.update()
 
@@ -84,5 +95,9 @@ while True:
 
     time.sleep_ms(10)
 ```
-Image link example:  
-![xiedianshaba](image_34.png)
+Images of Prototype;
+![Detail_Images](Detail_Images.png)
+
+link to demo Video:  
+https://drive.google.com/file/d/1uqaur7JPG99CNawr7ctLzb1RcDJ87BxB/view?usp=share_link
+

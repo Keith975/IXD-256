@@ -10,10 +10,10 @@ This project aims to create a immersive flighting experience. The project integr
 **Inspiration**  
 The core of this project is to use a motion sensor to simulate the experience of flying a fighter jet. A HUD will display key information such as altitude, direction, and other essential data. This setup aims to create a realistic and immersive flight experience.  
 
-![inspiration images](InspirationImage.png)
+![inspiration images](InspirationImage.png)  
 
 **Sketches：**  
-![sketches](Sketch1.png)
+![sketches](Sketch1.png)  
 ![sketches](sketch2.png)
 
 **Material List:**  
@@ -27,7 +27,8 @@ OutPut:
 P5js, HTML&CSS, iPad display, LED lights 
 
 **Graphic Elements Used**  
-![HUD](Sketch1.png)  
+
+![HUD](HUD.png)  
 [activated](activated.png)
 [centerhorizontal](centerhorizontal.png)
 [centervertical](centervertical.png)

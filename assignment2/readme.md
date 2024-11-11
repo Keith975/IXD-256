@@ -1,5 +1,5 @@
 ## Assignment2  
-Link to the code: [assignment1](Project1.py)     
+Link to the code: [assignment2](assignment2/main.py)     
 **Description**  
 A book on a shelf with conductive material on the back. When the book is pushed back, the conductive part will make contact with a conductive backplate on the shelf, activating a hidden mechanism, like turning on a light.
 

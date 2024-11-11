@@ -262,9 +262,8 @@ while True:
 ```
 
 **Images of Prototype:**
-![Detail_Images](Detail_Images.png)
+![Detail_Images](Images.png)
 
 **link to demo Video:**  
-https://drive.google.com/file/d/1uqaur7JPG99CNawr7ctLzb1RcDJ87BxB/view?usp=share_link
-
+https://drive.google.com/file/d/19_AIDiYw_o4snVoypcmCBq1djsGoEjB8/view?usp=share_link
 

@@ -1,6 +1,6 @@
 ## Assignment2  
 
-PS：Hi Nikita, if you saw this message, it means I am now still working on documenting. I have an interview today around 6 PM, and I spent most of the time today preparing for that. 
+PS： Hi Nikita, if you saw this message, it means I am now still working on documenting. I have an interview today around 6 PM, and I spent most of the time today preparing for that. 
 
 Link to the code:  
 [assignment2 Micropyton code](main.py)  

@@ -48,6 +48,38 @@ P5js, HTML&CSS, iPad display, LED lights
   
 ![diagram](Flowchart.png)
 
+**Main code in the micro python:** 
+
+```Python
+while True:
+  M5.update()
+  imu_data = imupro_0.get_accelerometer()
+  acc_x = imu_data[0] #Xacceleration value
+  acc_y = imu_data[1]#yacceleration value
+  acc_z = imu_data[2]#zacceleration value
+  if not button.value():
+      button_pressed = 1
+  elif button.value():
+      button_pressed = 0
+      
+  if button_pressed == 1 and led < 29:
+    led += 1
+    rgb_strip.set_color(led,0xff0000)
+  elif led > 0 and button_pressed == 0:
+    
+    rgb_strip.set_color(led, 0x000000)  # 关闭对应的LED
+    led  -= 1
+    #rgb_strip.write()
+    
+  if led == 29:
+    activate = 1
+  else:
+    activate = 0
+  print(acc_x,',', acc_y,',',activate)
+  time.sleep_ms(50)
+```
+
+
 
 
 
@@ -227,37 +259,6 @@ def update_controls():
       rotate_angle += rotate_speed
   elif (rotate_speed < 0) and (rotate_angle > -1):
     rotate_angle += rotate_speed
-```
-
-**Main code in the micro python:** 
-
-```Python
-while True:
-  M5.update()
-  imu_data = imupro_0.get_accelerometer()
-  acc_x = imu_data[0] #Xacceleration value
-  acc_y = imu_data[1]#yacceleration value
-  acc_z = imu_data[2]#zacceleration value
-  if not button.value():
-      button_pressed = 1
-  elif button.value():
-      button_pressed = 0
-      
-  if button_pressed == 1 and led < 29:
-    led += 1
-    rgb_strip.set_color(led,0xff0000)
-  elif led > 0 and button_pressed == 0:
-    
-    rgb_strip.set_color(led, 0x000000)  # 关闭对应的LED
-    led  -= 1
-    #rgb_strip.write()
-    
-  if led == 29:
-    activate = 1
-  else:
-    activate = 0
-  print(acc_x,',', acc_y,',',activate)
-  time.sleep_ms(50)
 ```
 
 **Images of Prototype:**

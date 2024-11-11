@@ -1,11 +1,14 @@
 ## Assignment2  
+
+PS：Hi Nikita, if you saw this message, it means I am now still working on documenting. I have an interview today around 6 PM, and I spent most of the time today preparing for that. 
+
 Link to the code:  
 [assignment2 Micropyton code](main.py)  
 [assignment2 Python code](main.py)     
 
 
 **Description**  
-This project aims to create a immersive flighting experience. The project integrates a motion sensor mounted on a steering wheel to provide motion data displayed on a HUD on a computer screen. A switch on the steering wheel connects to an RGB strip, and pressing the button triggers a gunfire animation on the lights. The setup combines motion tracking with interactive lighting for an immersive experience.  
+This project aims to create an immersive flighting experience. The project integrates a motion sensor mounted on a steering wheel to provide motion data displayed on a HUD on a computer screen. A switch on the steering wheel connects to an RGB strip, and pressing the button triggers a gunfire animation on the lights. The setup combines motion tracking with interactive lighting for an immersive experience.  
 
 **Inspiration**  
 The core of this project is to use a motion sensor to simulate the experience of flying a fighter jet. A HUD will display key information such as altitude, direction, and other essential data. This setup aims to create a realistic and immersive flight experience.  
@@ -23,7 +26,7 @@ Basic Hardware:
 ESP 32, Extention module, wires  
 Input：  
 3-axis Motion Sensor, button  
-OutPut:  
+Output:  
 P5js, HTML&CSS, iPad display, LED lights 
 
 **Graphic Elements Used**  
@@ -43,7 +46,7 @@ P5js, HTML&CSS, iPad display, LED lights
 
 
 
-**Flowchart of high level logic:**   
+**Flowchart of high-level logic:**   
 ![diagram](Flowchart.png)
 
 

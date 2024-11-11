@@ -1,7 +1,5 @@
 ## Assignment2  
 
-PS： Hi Nikita, if you saw this message, it means I am now still working on documenting. I have an interview today around 6 PM, and I spent most of the time today preparing for that. 
-
 Link to the code:  
 [assignment2 Micropyton code](main.py)  
 [assignment2 Python code](main.py)     
@@ -46,7 +44,8 @@ P5js, HTML&CSS, iPad display, LED lights
 
 
 
-**Flowchart of high-level logic:**   
+**Flowchart of high-level logic:**  
+  
 ![diagram](Flowchart.png)
 
 
@@ -100,9 +99,9 @@ def draw():
 
 
   if activated_prev == 0 and activated == 1:
-    activated_time = p5.millis()  # 记录激活的时间
+    activated_time = p5.millis()  
 
-  activated_prev = activated  # 更新前一帧的激活状态
+  activated_prev = activated 
   
 
 

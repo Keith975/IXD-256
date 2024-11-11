@@ -1,10 +1,12 @@
 ## Assignment2  
-Link to the code: [assignment2](main.py)     
+Link to the code:  
+[assignment2 Micropyton code](main.py)  
+[assignment2 P5.js code](main.py)     
 **Description**  
-A book on a shelf with conductive material on the back. When the book is pushed back, the conductive part will make contact with a conductive backplate on the shelf, activating a hidden mechanism, like turning on a light.
+This project aims to create a immersive flighting experience. The project integrates a motion sensor mounted on a steering wheel to provide motion data displayed on a HUD on a computer screen. A switch on the steering wheel connects to an RGB strip, and pressing the button triggers a gunfire animation on the lights. The setup combines motion tracking with interactive lighting for an immersive experience.  
 
 **Inspiration**  
-In many movies, bookshelves are filled with hidden secrets, like escape room puzzles or concealed toggles. Inspired by this, I want to create an installation that recreates this mysterious experience, turning an ordinary bookshelf into an interactive puzzle full of surprises and hidden mechanisms.  
+The core of this project is to use a motion sensor to simulate the experience of flying a fighter jet. A HUD will display key information such as altitude, direction, and other essential data. This setup aims to create a realistic and immersive flight experience.  
 
 ![inspiration images](inspiration_images.png)
 

@@ -231,41 +231,36 @@ def update_controls():
 ```
 
 **Main code in the micro python:** 
+
 ```Python
 while True:
-    M5.update()
-
-    if not pin5.value() and program_state == 'inactive':
-        program_state = 'active'
-        print('active')
-       
-
-    if program_state == 'active':
-        input_pin5_active = not pin5.value()
-        input_pin7_active = not pin7.value()
-
-        if input_pin5_active and input_pin7_active:
-            pin6.off()
-            pin8.off()
-            rgb_cycle_colors()
-        elif input_pin5_active or input_pin7_active:
-            pin6.on()
-            pin8.off()
-            rgb_blink_red() 
-            pin6.off()
-            pin8.on()
-            rgb_blink_red()
-        else:
-            pin6.on()   
-            pin8.off()
-            rgb2.fill((0, 0, 0))
-    else:
-        pin6.off()
-        pin8.off()
-        rgb2.fill((0, 0, 0))
-
-    time.sleep_ms(10)
+  M5.update()
+  imu_data = imupro_0.get_accelerometer()
+  acc_x = imu_data[0] #Xacceleration value
+  acc_y = imu_data[1]#yacceleration value
+  acc_z = imu_data[2]#zacceleration value
+  if not button.value():
+      button_pressed = 1
+  elif button.value():
+      button_pressed = 0
+      
+  if button_pressed == 1 and led < 29:
+    led += 1
+    rgb_strip.set_color(led,0xff0000)
+  elif led > 0 and button_pressed == 0:
+    
+    rgb_strip.set_color(led, 0x000000)  # 关闭对应的LED
+    led  -= 1
+    #rgb_strip.write()
+    
+  if led == 29:
+    activate = 1
+  else:
+    activate = 0
+  print(acc_x,',', acc_y,',',activate)
+  time.sleep_ms(50)
 ```
+
 **Images of Prototype:**
 ![Detail_Images](Detail_Images.png)
 

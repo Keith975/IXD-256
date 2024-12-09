@@ -1,8 +1,8 @@
 ## Final Project 
 
 Link to the code:  
-[assignment3 Mouse code](Mouse.py)  
-[assignment3 keyboard code](keyboard.py)     
+[FinalProject Mouse code](Mouse.py)  
+[FianlProject keyboard code](keyboard.py)     
 
 ##  Introduction
 
@@ -11,7 +11,7 @@ Link to the code:
 This project leverages a motion sensor to translate real human interactions into the game, enhancing the realism of the experience. By using the motion sensor, I can detect users' movements and synchronize them with the game character’s actions. Additionally, I aim to map interactions like reloading, shooting, and more. To heighten the immersive experience, I plan to add vibration feedback, making the gameplay even more lifelike.  
 
 **Inspiration**  
-The core of this project is to use a motion sensor to simulate the experience of flying a fighter jet. A HUD will display key information such as altitude, direction, and other essential data. This setup aims to create a realistic and immersive flight experience.  
+The core of this project is to create a real immersive shooting experience. The following images demostrate how I want the final prototype to work.  
 
 ![inspiration images](Inspiration.png)  
 
@@ -53,6 +53,8 @@ Game: Project Strinova
 ##  Prototyping Process  
 
 ![sketches](PrototypeProcess.png)  
+
+## Codes  
 
 **Main code in Mouse Interaction:** 
 
@@ -109,7 +111,7 @@ while True:
         motor.value(0)
         motor_state = False
 ```
-**Code for viberation cycle** 
+**Code for Viberation Cycle** 
 
 ```Python       
 if button_pressed:
@@ -122,7 +124,7 @@ else:
     motor_state = False
 ```
 
-**Code for keyboard interaction** 
+**Code for Keyboard Interaction** 
 
 ```Python       
 M5.begin()
@@ -184,8 +186,20 @@ while True:
         d.keyboard.notify_hid_report()
         time.sleep_ms(2)
 ```
+## Integrations & Connection
 
-**Images of Prototype:**
+The core of this project is to utilize the bluetooth to create connection between prototype and the game on a PC to map human interaction into the game. Therefore, following code is applied to my prototype to establsh this connection:
+
+**Bluetooth for Keyboard Projection**  
+[BluetoothKeyboard](BluetoothKeyboard.py)  
+
+**Bluetooth for Mouse Projection**  
+[BluetoothMouse](BluetoothMouse.py)  
+
+
+## Final Prototype Demo:  
+
+**Demo Images**
 ![Detail_Images](Images.png)
 
 **link to demo Video:**  

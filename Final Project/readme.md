@@ -30,11 +30,15 @@ Input：
 Output:  
 Bluetooth Mouse output, Bluetooth Keyboard output, viberation motor  
 
-To utilize bluetooth connection, we experimented with our original Atom S3 Lite borad, but it fails to esatblish a stable connection with computer. Therefore, I switched to Atom S3/Atom Matrix.  
-
 **Software:**  
 Micro Phton  
 Game: Project Strinova
+
+**Description**  
+To utilize bluetooth connection, we experimented with our original Atom S3 Lite borad, but it fails to esatblish a stable connection with computer. Therefore, I switched to Atom S3/Atom Matrix.  
+After that, I used two limit switches to map both the reloading and shooting interactions to the game. I also set shooting as a trigger to activate the vibration motor, which continues to vibrate in a predefined cycle using PWM until the button is released.
+In addition to that, I also integrated an ADC input using a reflective sensor to detect the distance between the gun and the player. When the distance is short, it triggers the “shoulder firing mode,” activating the aiming scope.  
+Finally, and most importantly, I utilized an IMP Pro motion sensor to detect the player’s body movements and seamlessly project them into the game.  
 
 ##  Diagram  
 

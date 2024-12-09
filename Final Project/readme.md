@@ -184,7 +184,7 @@ The core of this project is to utilize the bluetooth to create connection betwee
 **Bluetooth for Mouse Projection**  
 [BluetoothMouse](BluetoothMouse.py)  
 
-## Encousure Design:  
+## Enclosure Design:  
 **Prototype Line Sketch:**  
 
 ![sketches](LineSketch.png)  

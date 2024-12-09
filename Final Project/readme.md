@@ -36,23 +36,9 @@ Game: Project Strinova
 
 ##  Diagram  
 
-**Prototype Line Sketch:**  
-
-![sketches](LineSketch.png)  
-
-**Prototype Teardown:**  
-
-![sketches](Teardown.png)  
-
 **Schematic Diagram:**  
 
 ![sketches](SchematicDiagram.png)  
-
-
-
-##  Prototyping Process  
-
-![sketches](PrototypeProcess.png)  
 
 ## Codes  
 
@@ -196,6 +182,19 @@ The core of this project is to utilize the bluetooth to create connection betwee
 **Bluetooth for Mouse Projection**  
 [BluetoothMouse](BluetoothMouse.py)  
 
+## Encousure Design:  
+**Prototype Line Sketch:**  
+
+![sketches](LineSketch.png)  
+
+**Prototype Teardown:**  
+
+![sketches](Teardown.png)  
+
+##  Prototyping Process  
+
+![sketches](PrototypeProcess.png)  
+
 
 ## Final Prototype Demo:  
 
@@ -203,5 +202,9 @@ The core of this project is to utilize the bluetooth to create connection betwee
 ![Detail_Images](Images.png)
 
 **link to demo Video:**  
-https://drive.google.com/file/d/19_AIDiYw_o4snVoypcmCBq1djsGoEjB8/view?usp=share_link
+https://drive.google.com/file/d/19_AIDiYw_o4snVoypcmCBq1djsGoEjB8/view?usp=share_link  
 
+## Conclusion:  
+During this class, we experimented with a variety of hardware and software, ranging from something as simple as a light with two stages (on and off) to more complex tasks like servo control, ADC control, connecting with p5.js, establishing Bluetooth connections, and Wi-Fi connections. In this final project, I aimed to implement everything I learned during previous classes, including ADC, PWM, and more. Additionally, with help from Nikita, I was able to use a Bluetooth connection to successfully map all human interactions into a virtual game.  
+
+This final project is more than just a simple prototype; it also explores how the future of gaming experiences could evolve. By integrating a physical objetc with VR or MR technology, the gaming experience can be elevated to an entirely new level.

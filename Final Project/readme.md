@@ -30,6 +30,8 @@ Input：
 Output:  
 Bluetooth Mouse output, Bluetooth Keyboard output, viberation motor  
 
+To utilize bluetooth connection, we experimented with our original Atom S3 Lite borad, but it fails to esatblish a stable connection with computer. Therefore, I switched to Atom S3/Atom Matrix.  
+
 **Software:**  
 Micro Phton  
 Game: Project Strinova
@@ -174,7 +176,7 @@ while True:
 ```
 ## Integrations & Connection
 
-The core of this project is to utilize the bluetooth to create connection between prototype and the game on a PC to map human interaction into the game. Therefore, following code is applied to my prototype to establsh this connection:
+The core of this project is to utilize the bluetooth to create connection between prototype and the game on a PC to map human interaction into the game.  Therefore, following code is applied to my prototype to establsh this connection:
 
 **Bluetooth for Keyboard Projection**  
 [BluetoothKeyboard](BluetoothKeyboard.py)  
@@ -205,6 +207,6 @@ The core of this project is to utilize the bluetooth to create connection betwee
 https://drive.google.com/file/d/19_AIDiYw_o4snVoypcmCBq1djsGoEjB8/view?usp=share_link  
 
 ## Conclusion:  
-During this class, we experimented with a variety of hardware and software, ranging from something as simple as a light with two stages (on and off) to more complex tasks like servo control, ADC control, connecting with p5.js, establishing Bluetooth connections, and Wi-Fi connections. In this final project, I aimed to implement everything I learned during previous classes, including ADC, PWM, and more. Additionally, with help from Nikita, I was able to use a Bluetooth connection to successfully map all human interactions into a virtual game.  
+During this class, we experimented with a variety of hardware and software, ranging from something as simple as a light with two stages (on and off) to more complex tasks like servo control, ADC control, connecting with p5.js, establishing Bluetooth connections, and Wi-Fi connections. In this final project, I aimed to implement everything I learned during previous classes, including ADC, PWM, and more. Additionally, with help from Nikita, I was able to use a Bluetooth connection to successfully map all human interactions into a virtual game.  This class provides me a very unique and precious opportunity to play with code and hard and 
 
 This final project is more than just a simple prototype; it also explores how the future of gaming experiences could evolve. By integrating a physical objetc with VR or MR technology, the gaming experience can be elevated to an entirely new level.

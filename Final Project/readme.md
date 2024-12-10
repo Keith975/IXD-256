@@ -208,7 +208,7 @@ The core of this project is to utilize the bluetooth to create connection betwee
 ![Detail_Images](DemoImages.png)
 
 **link to demo Video:**  
-https://drive.google.com/file/d/19_AIDiYw_o4snVoypcmCBq1djsGoEjB8/view?usp=share_link  
+https://drive.google.com/file/d/1eW7sme1L3LpyuwOyc_2iK36Ml7qwcIQX/view?usp=sharing  
 
 ## Conclusion:  
 During this class, we experimented with a variety of hardware and software, ranging from something as simple as a light with two stages (on and off) to more complex tasks like servo control, ADC control, connecting with p5.js, establishing Bluetooth connections, and Wi-Fi connections. In this final project, I aimed to implement everything I learned during previous classes, including ADC, PWM, and more. Additionally, with help from Nikita, I was able to use a Bluetooth connection to successfully map all human interactions into a virtual game.  This class provides me a very unique and precious opportunity to play with code and hardware，allowing me to gain foundational insights into embedded development world.

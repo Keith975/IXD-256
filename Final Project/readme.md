@@ -95,7 +95,7 @@ while True:
                 d.mouse.notify_hid_report()
                 
     if button_pressed:
-        if time.ticks_diff(current_time, last_motortime) >= 50:  # 0.3秒间隔
+        if time.ticks_diff(current_time, last_motortime) >= 50:  
             motor_state = not motor_state
             motor.value(1 if motor_state else 0)
             last_motortime = current_time

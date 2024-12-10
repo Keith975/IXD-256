@@ -205,7 +205,7 @@ The core of this project is to utilize the bluetooth to create connection betwee
 ## Final Prototype Demo:  
 
 **Demo Images**
-![Detail_Images](Images.png)
+![Detail_Images](DemoImages.png)
 
 **link to demo Video:**  
 https://drive.google.com/file/d/19_AIDiYw_o4snVoypcmCBq1djsGoEjB8/view?usp=share_link  
